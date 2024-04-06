@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
-import environ # type: ignore
+from django_environ import environ # type: ignore
 
 
 env = environ.Env()
