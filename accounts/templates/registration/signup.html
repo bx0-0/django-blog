@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+{% load django_bootstrap5 %} 
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+  <h2>Sign up</h2>
+  <form method="post">
+    {% csrf_token %}
+    {% bootstrap_form form %} 
+    <button class="btn btn-outline-primary w-100" type="submit">login</button> 
+  </form>
+{% endblock %}
