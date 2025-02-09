@@ -104,25 +104,4 @@ http://127.0.0.1:8000/
 4. **Edit/Delete Posts:**
    - If you are the author of a post, you can edit or delete it from the post detail page.
 
----
-
-## Folder Structure
-
-```
-django-blog/
-├── blog/                # Main app containing views, models, templates, etc.
-│   ├── templates/       # HTML templates
-│   ├── static/          # Static files (CSS, JS, images)
-│   ├── admin.py         # Admin configurations
-│   ├── apps.py          # App configuration
-│   ├── models.py        # Database models
-│   ├── urls.py          # URL routing
-│   └── views.py         # Class-Based Views
-├── django_blog/         # Project settings and configurations
-│   ├── settings.py      # Project settings
-│   ├── urls.py          # Root URL configuration
-│   └── wsgi.py          # WSGI configuration
-├── manage.py            # Django management script
-└── requirements.txt     # List of dependencies
-```
 
